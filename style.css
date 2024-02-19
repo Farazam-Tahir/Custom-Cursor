@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    
+}
+#container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 100px;
+}
+#cursor{
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    position: absolute;
+    border-radius: 50%;
+    mix-blend-mode: difference;
+    transition: all ease 0.1s;
+}
+#cursor img{
+    width: 100%;
+    height: 100%;
+}
